@@ -8,7 +8,6 @@ from cryptography.x509.oid import NameOID
 from cryptography.hazmat.backends import default_backend
 
 path = os.environ.get('SSL_CERTIFICATE_PATH')
-print('Path: ', path)
 if not os.path.exists(path):
     os.makedirs(path)
 
