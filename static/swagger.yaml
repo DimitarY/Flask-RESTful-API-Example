@@ -1,0 +1,22 @@
+openapi: "3.0.2"
+info:
+  title: Flask RESTful API Example V1 Route
+  version: "1.0 (Pre-alpha)"
+servers:
+  - url: https://127.0.0.1:8393/v1
+    description: API V1
+
+tags:
+  - name: Login
+
+paths:
+  /:
+    get:
+      tags:
+        - Login
+      summary: API V1 Home
+      description: ""
+      parameters: []
+      responses:
+        "200":
+          description: "Hello, World!"
