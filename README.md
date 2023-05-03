@@ -118,3 +118,7 @@ This project requires the use of the Python environment, which allows us to crea
    ```
    conda env config vars set SSL_CERTIFICATE_PATH=/path/to/directory
    ```
+5. Generate self signed certificate:
+   ```
+   python self_signed_cert_generator.py
+   ```
