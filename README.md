@@ -1,6 +1,6 @@
 # Flask RESTful API with version
 
- RESTful API for...
+RESTful API for...
 
 # Introduction
 
@@ -13,7 +13,7 @@ In this example, you'll see how to write an API in Flask and different ways to h
 - Configuration using environment variables
 - OpenAPI Swagger UI
 
-Used packages :
+## Used packages:
 
 - [Flask](http://flask.pocoo.org/)
 - [Flask-RESTful](https://flask-restful.readthedocs.io/en/latest/)
